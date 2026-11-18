@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Atelier Web France — Des sites web qui donnent envie d'aller plus loin</title><meta name="description" content="Atelier Web France imagine des sites vitrines modernes, responsive et adaptés aux artisans, commerces et petites entreprises.">
+<meta name="theme-color" content="#f7f8f5">
+<link rel="stylesheet" href="styles.css">
+
+<style id="awf-motion-enhancements">
+:root { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: no-preference) {
+  .topbar { animation: awf-drop .7s ease both; }
+  .hero-grid > div:first-child { animation: awf-rise .85s .08s both; }
+  .visual { animation: awf-float-in 1s .18s both; }
+  .browser { animation: awf-soft-float 6s ease-in-out infinite; }
+  .floatnote { animation: awf-soft-float 5s ease-in-out infinite reverse; }
+  .brandmark { transition: transform .35s ease, box-shadow .35s ease; }
+  .brand:hover .brandmark { transform: rotate(-9deg) scale(1.08); box-shadow: 0 8px 24px #9fc95b66; }
+  .btn, .navcta, .smalllink, .project { transition: transform .25s ease, box-shadow .25s ease, filter .25s ease; }
+  .btn:hover, .navcta:hover { transform: translateY(-3px); box-shadow: 0 12px 28px #26391c24; }
+  .project:hover { transform: translateY(-7px); box-shadow: 0 18px 40px #17251b20; }
+  .service { transition: transform .3s ease, box-shadow .3s ease; }
+  .service:hover { transform: translateY(-6px); box-shadow: 0 16px 34px #17251b16; }
+  .service-icon { transition: transform .35s ease; }
+  .service:hover .service-icon { transform: rotate(12deg) scale(1.12); }
+  .mockbutton, .mini-cta { animation: awf-pulse 2.8s ease-in-out infinite; }
+  .eyebrow { position: relative; }
+  .eyebrow::after { content:""; display:inline-block; width:22px; height:2px; margin:0 0 3px 9px; background:currentColor; transform-origin:left; animation:awf-line 2.2s ease-in-out infinite alternate; }
+  .awf-reveal { opacity: 0; transform: translateY(22px); transition: opacity .7s ease, transform .7s cubic-bezier(.2,.7,.2,1); }
+  .awf-reveal.awf-visible { opacity: 1; transform: translateY(0); }
+  .awf-glow { position: relative; isolation:isolate; }
+  .awf-glow::before { content:""; position:absolute; inset:-1px; border-radius:inherit; z-index:-1; opacity:0; background:linear-gradient(115deg,#b7d879,#e7f1d3,#8ebc55); filter:blur(13px); transition:opacity .35s ease; }
+  .awf-glow:hover::before { opacity:.65; }
+}
+@keyframes awf-drop { from { opacity:0; transform:translateY(-12px) } to { opacity:1; transform:translateY(0) } }
+@keyframes awf-rise { from { opacity:0; transform:translateY(24px) } to { opacity:1; transform:translateY(0) } }
+@keyframes awf-float-in { from { opacity:0; transform:translateX(24px) scale(.98) } to { opacity:1; transform:translateX(0) scale(1) } }
+@keyframes awf-soft-float { 0%,100% { transform:translateY(0) } 50% { transform:translateY(-8px) } }
+@keyframes awf-pulse { 0%,100% { filter:brightness(1) } 50% { filter:brightness(1.12) } }
+@keyframes awf-line { from { transform:scaleX(.45) } to { transform:scaleX(1.35) } }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior:auto !important; animation:none !important; transition:none !important; }
+}
+</style>
+
+</head><body><div class="topbar"><div class="wrap nav">
+<a class="brand" href="index.html"><span class="brandmark">A.</span><span>ATELIER WEB FRANCE</span></a>
+<nav class="navlinks"><a href="index.html#services">Services</a><a href="index.html#sites-sur-mesure">Sites sur mesure</a><a href="index.html#realisations">Réalisations</a><a href="index.html#methode">Méthode</a><a href="index.html#contact">Contact</a></nav>
+<a class="navcta" href="mailto:yohanruffie@yahoo.com?subject=Projet%20de%20site%20web">Parlons du projet ↗</a>
+</div></div>
+<main>
+<section class="hero"><div class="wrap hero-grid">
+<div><span class="eyebrow">Studio web · France</span>
+<h1>Votre activité mérite une présence en ligne <em>remarquable.</em></h1>
+<p class="lead">Des sites web clairs, modernes et pensés pour transformer les visites en prises de contact. Une image professionnelle, une navigation simple et un message qui va droit au but.</p>
+<div class="hero-actions"><a class="btn" href="#realisations">Découvrir les concepts ↗</a><a class="btn outline" href="mailto:yohanruffie@yahoo.com?subject=Parlons%20de%20mon%20site">Parler de mon projet</a></div>
+<div class="microproof"><span class="dot"></span> Échanges directs · Design sur mesure · Mobile-first</div></div>
+<div class="visual"><div class="browser"><div class="browserbar"><i></i><i></i><i></i><div class="url">atelierwebfrance.fr / aperçu</div></div><div class="mockhero"><div class="mocktag">VOTRE MARQUE · VOTRE HISTOIRE</div><h3>Faites bonne impression dès le premier clic.</h3><p>Un site qui met en valeur votre savoir-faire et facilite le contact.</p><span class="mockbutton">Découvrir nos services ↗</span></div><div class="mockcards"><div class="mockcard"><b>01</b>Design clair</div><div class="mockcard"><b>02</b>Mobile-first</div><div class="mockcard"><b>03</b>Contact facile</div></div></div><div class="floatnote"><strong>Sur mesure</strong>Pas de modèle générique.</div></div>
+</div></section>
+<section class="section white" id="services"><div class="wrap"><div class="section-head"><div><span class="eyebrow">Ce que l'on construit</span><h2>Un site utile, pas juste joli.</h2></div><p>Chaque page a un objectif : expliquer votre activité, rassurer vos visiteurs et leur donner une bonne raison de vous contacter.</p></div>
+<div class="cards">
+<article class="awf-reveal service"><div class="service-icon">✳</div><h3>Site vitrine</h3><p>Présentez vos services, vos réalisations, vos horaires et vos coordonnées dans une expérience simple et soignée.</p><a class="smalllink" href="mailto:yohanruffie@yahoo.com?subject=Projet%20site%20vitrine">Imaginer mon site ↗</a></article>
+<article class="awf-reveal service"><div class="service-icon">↗</div><h3>Refonte de site</h3><p>Clarifiez votre message, modernisez votre identité et rendez votre site plus agréable sur téléphone comme sur ordinateur.</p><a class="smalllink" href="mailto:yohanruffie@yahoo.com?subject=Projet%20de%20refonte">Améliorer mon site ↗</a></article>
+<article class="awf-reveal service"><div class="service-icon">⌘</div><h3>Page de lancement</h3><p>Une page ciblée pour présenter une offre, annoncer une nouveauté ou recueillir des demandes de renseignements.</p><a class="smalllink" href="mailto:yohanruffie@yahoo.com?subject=Projet%20page%20de%20lancement">Lancer une page ↗</a></article>
+</div></div></section>
+
+<section class="section white" id="sites-sur-mesure"><div class="wrap">
+  <div class="section-head"><div><span class="eyebrow">Pour chaque entreprise</span><h2>Votre métier mérite son propre site.</h2></div>
+  <p>Nous partons de votre activité, de vos clients et de vos objectifs pour imaginer un site réellement adapté — pas une copie du site d'une autre entreprise.</p></div>
+  <div class="cards">
+    <article class="service awf-glow"><div class="service-icon">⌂</div><h3>Artisans & bâtiment</h3><p>Prestations, photos de chantiers, zones d'intervention, avis et demandes de devis.</p><a class="smalllink" href="mailto:yohanruffie@yahoo.com?subject=Maquette%20site%20artisan">Imaginer un site artisan ↗</a></article>
+    <article class="service awf-glow"><div class="service-icon">✳</div><h3>Commerces & restaurants</h3><p>Présentation, horaires, produits, carte, galerie photo et informations pratiques.</p><a class="smalllink" href="mailto:yohanruffie@yahoo.com?subject=Maquette%20site%20commerce">Imaginer un site commerce ↗</a></article>
+    <article class="service awf-glow"><div class="service-icon">▣</div><h3>Services & indépendants</h3><p>Une présentation claire de vos offres, de votre expérience et un moyen simple de vous contacter.</p><a class="smalllink" href="mailto:yohanruffie@yahoo.com?subject=Maquette%20site%20services">Imaginer un site de services ↗</a></article>
+  </div>
+  <div class="promise" style="margin-top:34px"><div><span class="eyebrow">Une proposition concrète</span><h2>Une première maquette pensée pour votre entreprise.</h2><p>Après un premier échange, nous pouvons préparer une piste visuelle de démonstration. La création complète, le prix, les délais et les fonctionnalités sont ensuite définis ensemble avant tout démarrage.</p></div>
+  <div class="promise-list"><div class="promise-item"><span class="check">1</span><div><strong>Découverte de votre activité</strong><small>Nous identifions vos services et les informations utiles à vos clients.</small></div></div><div class="promise-item"><span class="check">2</span><div><strong>Maquette personnalisée</strong><small>Une proposition visuelle adaptée à votre métier et à votre image.</small></div></div><div class="promise-item"><span class="check">3</span><div><strong>Devis et validation</strong><small>Vous validez le périmètre et les conditions avant la réalisation.</small></div></div></div></div>
+</div></section>
+
+<section class="section" id="realisations"><div class="wrap"><div class="section-head"><div><span class="eyebrow">Portfolio de démonstration</span><h2>Trois univers. Trois façons de se démarquer.</h2></div><p>Ces concepts fictifs montrent comment le design et le contenu peuvent s'adapter à différents métiers.</p></div>
+<div class="portfolio">
+<a class="awf-reveal project" href="demos/restaurant.html"><div class="project-art restaurant"><span class="concept-label">Concept fictif</span><div class="mini-site"><div class="mini-top"><i></i><i></i><i></i></div><div class="mini-body"><div class="mini-brand">MAISON OLIVA · BISTROT</div><div class="mini-title">La saison dans votre assiette.</div><div class="mini-line"></div><div class="mini-line short"></div><div class="mini-cta"></div></div></div></div><div class="project-info"><span class="type">Restauration</span><h3>Maison Oliva</h3><p>Un univers chaleureux pour un restaurant de quartier.</p><span class="textlink">Voir le concept ↗</span></div></a>
+<a class="awf-reveal project" href="demos/artisan.html"><div class="project-art artisan"><span class="concept-label">Concept fictif</span><div class="mini-site"><div class="mini-top"><i></i><i></i><i></i></div><div class="mini-body"><div class="mini-brand">ATELIER NORD · ARTISAN</div><div class="mini-title">Le détail fait la différence.</div><div class="mini-line"></div><div class="mini-line short"></div><div class="mini-cta"></div></div></div></div><div class="project-info"><span class="type">Artisanat</span><h3>Atelier Nord</h3><p>Un site solide qui met en avant le savoir-faire et les chantiers.</p><span class="textlink">Voir le concept ↗</span></div></a>
+<a class="awf-reveal project" href="demos/boutique.html"><div class="project-art shop"><span class="concept-label">Concept fictif</span><div class="mini-site"><div class="mini-top"><i></i><i></i><i></i></div><div class="mini-body"><div class="mini-brand">STUDIO PIVOINE · BOUTIQUE</div><div class="mini-title">De belles choses, choisies avec soin.</div><div class="mini-line"></div><div class="mini-line short"></div><div class="mini-cta"></div></div></div></div><div class="project-info"><span class="type">Commerce</span><h3>Studio Pivoine</h3><p>Une vitrine élégante pour valoriser une sélection de produits.</p><span class="textlink">Voir le concept ↗</span></div></a>
+</div></div></section>
+<section class="section dark" id="methode"><div class="wrap"><div class="section-head"><div><span class="eyebrow" style="color:var(--lime)">La méthode</span><h2>Un projet simple à suivre, du premier échange à la mise en ligne.</h2></div><p>Des étapes compréhensibles, des validations régulières et aucun engagement caché.</p></div>
+<div class="steps"><div class="awf-reveal step"><b>01 / ÉCOUTER</b><h3>Comprendre votre activité</h3><p>Vos objectifs, vos clients, vos services et ce qui vous rend différent.</p></div><div class="awf-reveal step"><b>02 / IMAGINER</b><h3>Créer une direction</h3><p>Structure, style visuel et première proposition adaptée à votre image.</p></div><div class="awf-reveal step"><b>03 / CONSTRUIRE</b><h3>Développer les pages</h3><p>Un site responsive, lisible et testé sur les principaux formats d'écran.</p></div><div class="awf-reveal step"><b>04 / VALIDER</b><h3>Préparer la publication</h3><p>Vérifications, corrections et accompagnement pour la mise en ligne.</p></div></div></div></section>
+<section class="section dark" style="padding-top:10px"><div class="wrap promise"><div><span class="eyebrow" style="color:var(--lime)">Notre différence</span><h2>Du soin dans les détails. De la clarté à chaque étape.</h2><p>Le but n'est pas de vous vendre des options inutiles. C'est de concevoir une présence en ligne cohérente avec votre activité et compréhensible par vos clients.</p></div><div class="promise-list"><div class="promise-item"><span class="check">✓</span><div><strong>Priorité au mobile</strong><small>Une expérience pensée pour les visiteurs sur smartphone.</small></div></div><div class="promise-item"><span class="check">✓</span><div><strong>Contenu facile à comprendre</strong><small>Des informations structurées et des appels à l'action visibles.</small></div></div><div class="promise-item"><span class="check">✓</span><div><strong>Transparence du projet</strong><small>Un périmètre, des étapes et un devis à valider avant tout engagement.</small></div></div></div></div></section>
+<section class="section white"><div class="wrap faq"><div><span class="eyebrow">Questions fréquentes</span><h2>Avant de se lancer.</h2><p style="color:var(--muted)">Un projet web doit être clair avant de commencer.</p></div><div><div class="awf-reveal faq-item"><h3>Combien coûte un site web ?</h3><p>Le tarif dépend du nombre de pages, des fonctionnalités et du contenu à produire. Une proposition détaillée doit être établie après échange.</p></div><div class="awf-reveal faq-item"><h3>Le site sera-t-il adapté au téléphone ?</h3><p>Oui, la mise en page est conçue pour s'adapter aux écrans mobiles, tablettes et ordinateurs.</p></div><div class="awf-reveal faq-item"><h3>Est-ce que je peux demander des modifications ?</h3><p>Les retours et le nombre d'allers-retours doivent être définis clairement dans la proposition avant le démarrage.</p></div><div class="awf-reveal faq-item"><h3>Les exemples du portfolio sont-ils des sites clients ?</h3><p>Non. Ce sont des concepts de démonstration fictifs créés pour montrer différentes directions créatives.</p></div></div></div></section>
+<section class="section"><div class="wrap"><div class="contact" id="contact"><div><span class="eyebrow" style="color:#33431e">On en parle ?</span><h2>Votre prochain site peut commencer par une simple conversation.</h2><p>Présentez votre activité et votre idée. Nous pourrons voir si le projet correspond à vos besoins.</p></div><a class="btn" href="mailto:yohanruffie@yahoo.com?subject=Projet%20de%20site%20web&body=Bonjour%2C%0A%0AJe%20souhaite%20parler%20d'un%20projet%20de%20site%20web.%0A%0AMon%20activit%C3%A9%20%3A%0AMon%20besoin%20%3A%0AMon%20site%20actuel%20(si%20existant)%20%3A%0A%0AMerci.">Écrire un e-mail ↗</a></div><p class="notice">Contact : <a href="mailto:yohanruffie@yahoo.com"><strong>yohanruffie@yahoo.com</strong></a> · Le bouton ouvre votre application de messagerie ; aucun formulaire n'enregistre vos données sur ce site.</p></div></section>
+</main><footer class="footer"><div class="wrap"><div class="footer-top">
+<a class="brand" href="index.html"><span class="brandmark">A.</span><span>ATELIER WEB FRANCE</span></a>
+<div class="footerlinks"><a href="index.html#services">Services</a><a href="index.html#sites-sur-mesure">Sites sur mesure</a><a href="index.html#realisations">Portfolio</a><a href="mailto:yohanruffie@yahoo.com">Contact</a><a href="mentions-legales.html">Mentions légales</a><a href="confidentialite.html">Confidentialité</a></div>
+</div><p class="legalnote">Atelier Web France est un projet de studio web en lancement. Les trois réalisations présentées sont des concepts fictifs de démonstration, créés pour illustrer des possibilités de design ; elles ne correspondent pas à des sites livrés à des clients. Les informations légales et de responsable de publication doivent être complétées et vérifiées avant toute publication commerciale.</p>
+<small>© 2026 Atelier Web France · Site de présentation</small></div></footer>
+<script>
+(() => {
+  const reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (!reduce && 'IntersectionObserver' in window) {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('awf-visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12 });
+    document.querySelectorAll('.awf-reveal').forEach(el => observer.observe(el));
+  } else {
+    document.querySelectorAll('.awf-reveal').forEach(el => el.classList.add('awf-visible'));
+  }
+})();
+</script>
+
+</body></html>

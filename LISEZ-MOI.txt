@@ -1,0 +1,25 @@
+ATELIER WEB FRANCE — KIT DU SITE COMPLET
+
+Structure :
+- index.html : page d'accueil
+- styles.css : design et mise en page responsive
+- demos/restaurant.html : concept fictif restaurant
+- demos/artisan.html : concept fictif artisan
+- demos/boutique.html : concept fictif boutique
+- mentions-legales.html : modèle à compléter
+- confidentialite.html : informations sur le fonctionnement actuel du prototype
+
+Prévisualisation :
+1. Décompressez le ZIP.
+2. Conservez exactement cette structure de dossiers.
+3. Ouvrez index.html dans un navigateur.
+
+Contact affiché sur le site :
+yohanruffie@yahoo.com
+
+À vérifier avant toute publication :
+- Compléter les mentions légales avec les informations exactes de l'éditeur et de l'hébergeur.
+- Vérifier la politique de confidentialité si des outils tiers, cookies ou formulaires sont ajoutés.
+- Les trois exemples du portfolio sont des concepts fictifs et ne doivent pas être présentés comme des réalisations clients.
+- Le site n'est pas automatiquement publié sur Internet : il faut le déployer chez un hébergeur et éventuellement configurer un nom de domaine.
+- Avant de proposer des prestations ou de conclure un contrat, vérifier les démarches applicables avec un adulte responsable.
